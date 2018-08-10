@@ -21,9 +21,9 @@ public class Main {
             //1左移n位相当于2的n次方
             for (int i = 0; i < (1 << arr.size()); i++) {
                 int sum = 0;
-//            00000~11111
+                //00000~11111
                 for (int bit = 0; bit < arr.size(); bit++) {
-//            10011,第一个数，第四个数，第五个数之和
+                    //10011,第一个数，第四个数，第五个数之和
                     if ((i & (1 << bit)) != 0)
                         sum += arr.get(bit);
                 }
