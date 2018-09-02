@@ -1,16 +1,9 @@
-package jianzhi_offer;
+package jianzhi_offer.LinkedList;
+
+//输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
 
 import java.util.ArrayList;
 import java.util.Stack;
-
-class ListNode {
-    int val;
-    ListNode next = null;
-
-    ListNode(int val) {
-        this.val = val;
-    }
-}
 
 /**
  * 2018/8/5 20:04
@@ -42,4 +35,5 @@ public class PrintListFromTailToHead {
 //        }
 //        return arrayList;
 //    }
+
 }

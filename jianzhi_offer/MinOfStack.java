@@ -4,6 +4,7 @@ import java.util.Stack;
 
 /**
  * 2018/8/11 0:27
+ * 定义栈的数据结构，请在该类型中实现一个能够得到栈中所含最小元素的min函数（时间复杂度应为O（1））。
  */
 public class MinOfStack {
     private int mint;
